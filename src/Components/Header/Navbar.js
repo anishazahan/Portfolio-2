@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react'
 import logo from '../../img/Capture-removebg-preview.png'
 
 const Navbar = () => {
@@ -10,12 +11,18 @@ const Navbar = () => {
                     <div className="">
                         <img src={logo} alt="" />
                          
-                         </div>
-                    <ul className="hidden md:flex justify-center items-center h-full mx-auto">
-
-                         <h1>menu</h1>
-
-                    </ul>
+                    </div>
+                    <div className="">
+                        {/* <Link to='/'>Home</Link> */}
+                        <ul className='decoration-0 flex space-x-6 font-medium'>
+                            <li className=''>Home</li>
+                            <li className=''>About</li>
+                            <li className=''>Services</li>
+                            <li className=''>Projects</li>
+                            <li className=''>Blog</li>
+                            <li className=''>Contact</li>
+                        </ul>
+                    </div>
                     
 
                </nav>
