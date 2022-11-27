@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Hellow from './Hellow';
+
+import Navbar from './Components/Header/Navbar';
 
 function App() {
   return (
     <>
-     <h1 className='text-blue-700'>Hellow</h1>
+     <Navbar></Navbar>
       
     </>
   );
