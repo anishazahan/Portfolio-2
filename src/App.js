@@ -5,7 +5,7 @@ import Hellow from './Hellow';
 function App() {
   return (
     <div>
-      <Hellow></Hellow>
+     <h1 className='text-blue-700'>Hellow</h1>
       
     </div>
   );
