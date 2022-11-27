@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
         <div className='bg-black '>
-               <nav className=" text-white md:flex items-center  justify-between mx-auto max-w-7xl">
+               <nav className=" text-emerald-200 md:flex items-center  justify-between mx-auto max-w-7xl">
                     <div className="">
                         <img src={logo} alt="" />
                          
