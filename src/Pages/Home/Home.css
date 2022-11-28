@@ -9,3 +9,20 @@
 
 background: black;
 }
+
+.icon{
+    margin-right: 10px;
+    font-size: 25px;
+    color:#29c388;
+    padding: 10px;
+    transition: 1s;
+    background-color: #1d1d1dcd;
+    margin: 10px 0;
+}
+
+.shado{
+    box-shadow: 4px 4px 8px black,4px -4px 8px black;
+}
+.icon:hover{
+   scale: 1.2;
+}

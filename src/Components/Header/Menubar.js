@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import {Link} from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../img/Capture-removebg-preview.png'
 
-const Navbar = () => {
+const Menubar = () => {
     const [nav, setNav] = useState(false);
   return (
     <>
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="">
                         {/* <Link to='/'>Home</Link> */}
                         <ul className='decoration-0 flex space-x-6 font-medium'>
-                            <li className=''>Home</li>
+                            <li className=''> <Link to='/'>Home</Link> </li>
                             <li className=''>About</li>
                             <li className=''>Services</li>
                             <li className=''>Projects</li>
@@ -52,4 +52,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Menubar
