@@ -6,7 +6,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
   return (
     <>
-        <div className='bg-black py-2 '>
+        <div className='bg-[#1D1D1D] py-2 '>
                <nav className=" text-emerald-200 md:flex items-center  justify-between mx-auto max-w-7xl">
                     <div className="">
                         <img src={logo} alt="" />
