@@ -6,9 +6,14 @@ const Banner = () => {
   return (
     <div className='banner'>
 
-      <div className="flex h-[90vh] max-w-7xl">
-        <div className="content w-[50%]">
-                <h2>Lorem ipsum dolor sit amet.</h2>
+      <div className="flex h-[90vh] max-w-7xl lg:px-20">
+        <div className="content w-[50%] flex flex-col h-full justify-center items-start">
+               <h2 className='text-amber-50 text-5xl font-bold mb-3'>Hey!!!</h2>
+               <div className="flex items-center">
+               <span className='text-5xl font-bold text-amber-50'>I'am</span> <span className='text-primary text-5xl font-bold ml-3'>Anisha Zahan Hashi</span>
+               </div>
+               <p className='text-amber-50 font-medium my-5'>I am a Fronted developer.I will create Your website
+               as your creative choice!</p>
         </div>
         <div className="img-section w-[50%]">
             <div className="h-full flex justify-center items-center relative">
