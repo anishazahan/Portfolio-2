@@ -1,0 +1,13 @@
+.skill-btn{
+  
+    padding: 8x 30px;
+    margin: 5px;
+    color: rgba(220, 220, 220, 0.866);
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 0;
+    /* border-radius: 50px; */
+    border-radius: 10px;
+    background: linear-gradient(145deg, black, black);
+    /* box-shadow: 4px 4px 8px black,4px -4px 8px black; */
+}

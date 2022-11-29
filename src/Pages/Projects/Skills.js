@@ -12,6 +12,7 @@ import firebase from '../../img/firebase.png'
 import tp2 from '../../img/tp2.png'
 import next from '../../img/next.jpeg'
 import strip2 from '../../img/strip2.jpeg'
+import './Skilss.css'
 
 const Skills = () => {
 
@@ -102,7 +103,7 @@ const Skills = () => {
     <h2 className='text-2xl px-5 mx-auto font-semibold text-gray-200 inline-block border-b-2 border-emerald-500 mb-8'>Deploy and Tools</h2>
     </div>
     
-    <div className=" grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-y-6 my-5 space-x-6 mx-auto max-w-7xl px-10 lg:px-32">
+    {/* <div className=" grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-y-6 my-5 space-x-6 mx-auto max-w-7xl px-10 lg:px-32">
 
     
 
@@ -139,7 +140,25 @@ const Skills = () => {
        <div className="w-32 h-32 bg-black p-4 rounded-sm shadow-lg mx-auto">
             <h2 className=' flex items-center justify-center w-full h-full bg-slate-200 text-black font-bold text-2xl'>Trello</h2>
         </div>
-        </div>
+        </div> */}
+
+         <div className="flex justify-center flex-wrap ">
+         <button className="skill-btn p-2">Git</button>
+            <button className="skill-btn py-3 px-4">Figma</button>
+            <button className="skill-btn py-3 px-4">Img BB</button>
+            <button className="skill-btn py-3 px-4">GitHub</button>
+            <button className="skill-btn py-3 px-4">Netlify</button>
+            <button className="skill-btn py-3 px-4">Firebase</button>
+            <button className="skill-btn py-3 px-4">Heroku</button><br/>
+            <button className="skill-btn py-3 px-4">VS Code</button>
+            <button className="skill-btn py-3 px-4">Figma</button>
+            <button className="skill-btn py-3 px-4">PhotoShop</button>
+            <button className="skill-btn py-3 px-4">Postman</button>
+            <button className="skill-btn py-3 px-4">Vercel</button>
+            <button className="skill-btn py-3 px-4">Render</button>
+            <button className="skill-btn py-3 px-4">Trello</button>
+
+         </div>
 
 
     </div>
