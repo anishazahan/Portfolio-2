@@ -10,9 +10,9 @@ const About = () => {
 
         <div className="flex mx-auto max-w-7xl justify-center items-center px-28 relative">
 
-            <div className="h-[550px] relative w-[40%] rounded-md z-10">
-                <img className='h-full w-full object-cover rounded-md absolute ' src={'https://c1.wallpaperflare.com/preview/167/600/43/office-business-laptop-paper.jpg'} alt="" />
-                <div className="bg-black/25 w-full h-full absolute"></div>
+            <div className="h-[550px] relative w-[40%] rounded-sm z-10 overflow-hidden ">
+                <img className='h-full w-full object-cover rounded-md absolute hover:scale-125' src={'https://c1.wallpaperflare.com/preview/167/600/43/office-business-laptop-paper.jpg'} alt="" />
+                <div className="bg-black/20 w-full h-full absolute hover:scale-125 duration-500"></div>
             </div>
             <div className="w-[50%] bg-black p-10 ml-[-5rem] z-20 text-gray-400 font-medium shadow-2xl rounded-sm">
             <h2 className='about-heading text-xl md:text-3xl text-gray-100 '> DeVeloper</h2>
