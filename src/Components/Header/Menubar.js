@@ -127,7 +127,7 @@ const Menubar = () => {
                        
                     </div>
                 </div>
-                <div className="hidden space-x-2 ">
+                <div className="hidden md:block space-x-2 ">
                     <Link
                         href=""
                         className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"

@@ -13,10 +13,21 @@ const Banner = () => {
         <div className="content w-full lg:w-[48%] items-center flex flex-col h-full justify-center lg:items-start lg:my-auto lg:ml-10">
                <h2 className='text-amber-50 text-5xl font-bold mb-3'>Hey!!! I'am</h2>
                <div className="flex items-center">
-                <span className='text-primary text-3xl md:text-5xl font-bold ml-1'>Anisha Zahan Hashi</span>
+                <span className='text-primary text-3xl md:text-5xl font-bold'>Anisha Zahan Hashi</span>
                </div>
                <p className='text-amber-50 w-[80%] lg:w-full text-center lg:text-left font-medium my-5'>I am a Fronted developer.I will create Your website
                as your creative choice!</p>
+
+               <div className="flex mt-5 space-x-5">
+               <Link className='font-medium hire-btn text-primary tracking-wide'> Hire me
+                    </Link>
+                    <Link
+                        href=""
+                        className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
+                    >
+                        See Resume
+                    </Link>
+               </div>
         </div>
         <div className="img-section w-[48%] hidden lg:block ">
             <div className="h-full flex justify-center items-center relative">
