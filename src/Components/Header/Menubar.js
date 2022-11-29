@@ -99,11 +99,11 @@ const Menubar = () => {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                        className={`flex-1 justify-center items-center pl-10 md:pl-0 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-emerald-200 font-medium">
                                 <Link href="/">Home</Link>
                             </li>
@@ -127,7 +127,7 @@ const Menubar = () => {
                        
                     </div>
                 </div>
-                <div className="hidden space-x-2 md:inline-block">
+                <div className="hidden space-x-2 ">
                     <Link
                         href=""
                         className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
