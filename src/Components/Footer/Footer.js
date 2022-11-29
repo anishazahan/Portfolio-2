@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="footer p-10 bg-black px-20 text-gray-400">
     <div>
       <span className="footer-title">Services</span> 
-      <Link to='services' className="link link-hover">Web Development</Link> 
-      <Link to='services' className="link link-hover">UI UX Design</Link> 
-      <Link to='services' className="link link-hover">React Application</Link> 
-      <Link to='services' className="link link-hover">Web Design</Link>
+      <Link to='/services' className="link link-hover">React Application</Link> 
+      <Link to='/services' className="link link-hover">Mern Application</Link> 
+      <Link to='/services' className="link link-hover">UX Design</Link> 
+      <Link to='/services' className="link link-hover">Web Design</Link>
     </div> 
     <div>
       <span className="footer-title">Portfolio</span> 
