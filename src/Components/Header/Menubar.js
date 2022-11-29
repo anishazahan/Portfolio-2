@@ -104,17 +104,23 @@ const Menubar = () => {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-white hover:text-emerald-200 font-medium">
                                 <Link href="/">Home</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <Link to="/">Blog</Link>
+                            <li className="text-white hover:text-emerald-200 font-medium">
+                                <Link to="/">About</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <Link href="/">About US</Link>
+                            <li className="text-white hover:text-emerald-200 font-medium">
+                                <Link href="/">Services</Link>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
-                                <Link to="/">Contact US</Link>
+                            <li className="text-white hover:text-emerald-200 font-medium">
+                                <Link to="/">Projects</Link>
+                            </li>
+                            <li className="text-white hover:text-emerald-200 font-medium">
+                                <Link to="/">Blogs</Link>
+                            </li>
+                            <li className="text-white hover:text-emerald-200 font-medium">
+                                <Link to="/">Contact</Link>
                             </li>
                         </ul>
 
