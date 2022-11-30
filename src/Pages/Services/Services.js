@@ -21,7 +21,7 @@ const Services = () => {
         </div>
         <p className=' text-center mb-16 text-gray-300'>You will get 100% full service of work assured until you are fully satisfied</p>
 
-        <div className="grid sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-4">
+        <div className="grid sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-4 pb-14">
         <div className="box border text-gray-600 border-gray-900 hover:bg-primary hover:text-black duration-500 px-4 pb-5 text-center">
                 <img className='img-design' src={responsiveImg} alt="" />
                 <h2 className='text-3xl mb-7 service-name'>Responsive design</h2>
@@ -57,56 +57,57 @@ const Services = () => {
     </div>
 
 
+    <div className="service text-center mb-10">
+        <h2 className=' servicing-heading text-3xl md:p-7 text-gray-300'>Why you can Chose Me!!!</h2>
+        </div>
 
     {/* <!-- component --> */}
-<div class=" max-w-7xl px-10 lg:px-20  bg-black mx-auto w-full h-full">
+<div class=" max-w-7xl px-10 lg:px-20 mt-20 bg-black mx-auto w-full h-full">
   <div class="relative wrap overflow-hidden p-10 h-full">
     
     {/* <!-- right timeline --> */}
     <div class="mb-8 flex justify-between items-center w-full right-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 class="mx-auto font-bold text-lg text-black">1</h1>
       </div>
       <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <h3 class="mb-3 font-bold text-gray-900 text-xl">Web Design and ,React .Js ,Fronted,Junior Mern Stack Developer.</h3>
+        
       </div>
     </div>
 
     {/* <!-- left timeline --> */}
     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 class="mx-auto text-black font-bold text-lg">2</h1>
       </div>
-      <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-        <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+        <h3 class="mb-3 font-bold text-gray-900 text-xl">Cross browser operability,Responsive design for all devices.</h3>
+       
       </div>
     </div>
     
     {/* <!-- right timeline --> */}
     <div class="mb-8 flex justify-between items-center w-full right-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 class="mx-auto font-bold text-lg text-black">3</h1>
       </div>
       <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <h3 class="mb-3 font-bold text-gray-900 text-xl">Process improvement,workflow optimization.User Requirement Gathering.</h3>
+        
       </div>
     </div>
-
     {/* <!-- left timeline --> */}
     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 class="mx-auto text-black font-bold text-lg">4</h1>
       </div>
-      <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-        <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+        <h3 class="mb-3 font-bold text-gray-900 text-xl">Fresh, Commentable, Clean Code, Error handling, Debugging, fixing problems.Client Interaction about the project. </h3>
       </div>
     </div>
   </div>
