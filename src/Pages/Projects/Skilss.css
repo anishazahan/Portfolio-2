@@ -11,3 +11,30 @@
     background: linear-gradient(145deg, black, black);
     /* box-shadow: 4px 4px 8px black,4px -4px 8px black; */
 }
+
+/* .................projects,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.servicing-heading{
+    display: inline;
+     position: relative;
+     border-bottom: 0.12rem solid black;
+     padding-bottom: 0.7rem;
+     font-weight: 700;
+     color: aliceblue!important;
+    
+    
+    
+ }
+ .servicing-heading::before{
+     transition: .3s;
+     position: absolute;
+     content: "";
+     width: 30%;
+     height: 0.2rem;
+     background:#41D99F;
+     bottom: -4%;
+     margin: auto;
+     left: 35%;
+  
+    
+ }
