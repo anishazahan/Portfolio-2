@@ -11,16 +11,23 @@ const Portfolio = () => {
     }, [])
     console.log(projects)
   return (
-    <div className='bg-black py-10'>
-             <div className="service text-center mb-10">
+    <div className='bg-[#1D1D1D] py-20'>
+             <div className="service text-center mb-20">
         <h2 className=' servicing-heading text-3xl md:p-7 text-gray-300'>My  Portfolios</h2>
         </div>
 
 
         <div className="max-w-7xl px-10 mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-6">
                 {
-                        projects.map
+                     projects&&projects.map(project=> {
+                        return <div key={project.id} className="border-4 border-primary">
+                        <div className="relative group">
+                        <img className='z-10 hover:bg-black/50 cursor-pointer' src={ project?.img} alt="" />
+                        <div className="absolute w-full h-full z-20"></div>
+                        </div>
+                           </div>
+                     } ).slice(0,6)
                 }
             </div>
         </div>

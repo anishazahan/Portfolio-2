@@ -23,7 +23,7 @@ const About = () => {
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
-                <span class="button-text">About More</span>
+                <Link to='about' class="button-text">About More</Link>
                 </button></Link>
             </div>
 

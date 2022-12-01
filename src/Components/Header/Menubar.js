@@ -8,50 +8,7 @@ const Menubar = () => {
     const [navbar, setNavbar] = useState(false);
   return (
     <>
-        {/* <div className='bg-[#1D1D1D] py-2 '>
-               <nav className=" text-emerald-200 md:flex items-center  justify-between mx-auto max-w-7xl">
-                    <div className="">
-                        <img src={logo} alt="" />
-                         
-                    </div>
-                    <div className="">
-                       
-                        <ul className='decoration-0 flex space-x-6 font-medium'>
-                            <li className=''> <Link to='/'>Home</Link> </li>
-                            <li className=''>About</li>
-                            <li className=''>Services</li>
-                            <li className=''>Projects</li>
-                            <li className=''>Blog</li>
-                            <li className=''>Contact</li>
-                        </ul>
-                    </div>
-                    
-
-               </nav>
-
-
-               <div className="justify-between px-[8%] h-full items-center md:hidden  flex relative  duration-200">
-                    <button onClick={() => setNav(!nav)} className='text-white'>
-                         
-                    </button>
-                    <nav
-                         className={`flex flex-col bg-[#00a6ff] text-center z-10 left-0 w-full  absolute duration-500 ${nav ? "opacity-100  top-14 visible" : " top-[-270px] opacity-0 invisible"}`}>
-                         <ul className={` p-4 w-[50%] mx-auto uppercase`}>
-                              
-                         </ul>
-                    </nav>
-                    <div className="text-white">
-                        
-                    </div>
-               </div>
-
-
-
-
-          </div> */}
-
-
-
+   
 
           <nav className="w-full bg-[#1D1D1D] shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -106,22 +63,22 @@ const Menubar = () => {
                     >
                         <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link href="/">Home</Link>
+                                <Link href="/home">Home</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link to="/">About</Link>
+                                <Link to="about">About</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link href="/">Services</Link>
+                                <Link href="service">Services</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link to="/">Projects</Link>
+                                <Link to="portfolio">Projects</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link to="/">Blogs</Link>
+                                <Link to="blog">Blogs</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link to="/">Contact</Link>
+                                <Link to="contact">Contact</Link>
                             </li>
                         </ul>
 
