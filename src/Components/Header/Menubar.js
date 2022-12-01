@@ -63,13 +63,13 @@ const Menubar = () => {
                     >
                         <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link href="/home">Home</Link>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
                                 <Link to="about">About</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link href="service">Services</Link>
+                                <Link to="service">Services</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
                                 <Link to="portfolio">Projects</Link>
