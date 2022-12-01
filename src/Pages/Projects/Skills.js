@@ -142,7 +142,7 @@ const Skills = () => {
         </div>
         </div> */}
 
-         <div className="flex justify-center flex-wrap px-10 mx-auto ">
+         <div className="flex justify-center flex-wrap px-10 mx-auto max-w-4xl ">
          <button className="skill-btn p-2">Git</button>
             <button className="skill-btn py-3 px-4">Figma</button>
             <button className="skill-btn py-3 px-4">Img BB</button>

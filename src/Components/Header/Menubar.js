@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../img/Capture-removebg-preview.png'
+import resume1 from './Resume.pdf'
 
 const Menubar = () => {
     const [nav, setNav] = useState(false);
@@ -128,12 +129,12 @@ const Menubar = () => {
                     </div>
                 </div>
                 <div className="hidden md:block space-x-2 ">
-                    <Link
-                        href=""
+                    <a
+                        href={resume1}  target='_blank' rel="noreferrer"
                         className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
                     >
                         See Resume
-                    </Link>
+                    </a>
                     
                 </div>
             </div>
