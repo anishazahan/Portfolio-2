@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
 
@@ -22,10 +23,12 @@ const Portfolio = () => {
                 {
                      projects&&projects.map(project=> {
                         return <div key={project.id} className="border-4 border-primary">
-                        <div className="relative group">
+                       <Link to='/'>
+                       <div className="relative group">
                         <img className='z-10 hover:bg-black/50 cursor-pointer' src={ project?.img} alt="" />
                         <div className="absolute w-full h-full z-20"></div>
                         </div>
+                       </Link>
                            </div>
                      } ).slice(0,6)
                 }
