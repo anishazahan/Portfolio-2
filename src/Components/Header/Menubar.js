@@ -72,7 +72,7 @@ const Menubar = () => {
                                 <Link to="service">Services</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
-                                <Link to="portfolio">Projects</Link>
+                                <Link to="portfolio">Portfolio</Link>
                             </li>
                             <li className="text-white hover:text-emerald-200 font-medium">
                                 <Link to="blog">Blogs</Link>
