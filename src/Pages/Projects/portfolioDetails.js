@@ -36,10 +36,10 @@ const PortfolioDetails = () => {
             <a href={portfolioDetail.live} target="_blank">Live Link</a>
         </h2>
         <h2 className='font-semibold underline  text-2xl text-primary my-4'>
-            <a href=''>Client Code</a>
+        <a href={portfolioDetail.code} target="_blank">Client Code</a>
         </h2>
         <h2 className='font-semibold underline  text-2xl text-primary my-4'>
-            <a href=''>Server Code</a>
+        <a href={`portfolioDetail.server ? ${portfolioDetail.server} : ""`} target="_blank">Server Code</a>
         </h2>
         </div>
         <h2 className='font-semibold text-2xl text-white my-3'>
@@ -47,11 +47,7 @@ const PortfolioDetails = () => {
         </h2>
             
             <ul className=' text-gray-300 ml-3 flex flex-wrap gap-3 font-medium'>
-                {/* <li>kjdsf  jkkcajksk  coicuiuiucc</li>
-                <li>kjdsf  jkkcajksk  coicuiuiucc</li>
-                <li>kjdsf  jkkcajksk  coicuiuiucc</li>
-                <li>kjdsf  jkkcajksk  coicuiuiucc</li>
-                <li>kjdsf  jkkcajksk  coicuiuiucc</li> */}
+               
                 {
                     portfolioDetail.useTecnology?.map(tecnology=> {
                         return <li>{`${tecnology} ,`}</li>
@@ -64,9 +60,7 @@ const PortfolioDetails = () => {
             
             <ul className=' text-gray-300 ml-3 font-medium space-y-3'>
             {
-                    portfolioDetail.description?.map(desc=> {
-                        return  <li>{`${desc} `}</li>
-                    } )
+                    portfolioDetail.description
                 }
             </ul>
         
