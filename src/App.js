@@ -10,31 +10,25 @@ import Home from './Pages/Home/Home';
 import Portfolio from './Pages/Projects/Portfolio';
 import Services from './Pages/Services/Services';
 import PortfolioDetails from './Pages/Projects/PortfolioDetails';
-import usePortfolio from './Hook/usePortfoli';
-import { createContext } from 'react';
-
-export const portfolioContext = createContext()
-
 
 function App() {
-  const {portfolio,setPortfolio} = usePortfolio();
- 
+
   return (
     <>
-     <portfolioContext.Provider value={{portfolio,setPortfolio}}>    
+    
      <Menubar/>
      <Routes>
       <Route path='/' element={<Home></Home>}> </Route>
-      <Route path='about' element={<About></About>}> </Route>
-      <Route path='service' element={<Services></Services>}> </Route>
-      <Route path='portfolio' element={<Portfolio></Portfolio>}> </Route>
-      <Route path='/portfolio-details/:id' element={<PortfolioDetails></PortfolioDetails>}> </Route>
-      <Route path='blog' element={<Blogs></Blogs>}> </Route>
-      <Route path='contact' element={<Contact></Contact>}> </Route>
+      <Route path='/about' element={<About></About>}> </Route>
+      <Route path='/service' element={<Services></Services>}> </Route>
+      <Route path='/portfolio' element={<Portfolio></Portfolio>}> </Route>
+      <Route path='/portfolio/:id' element={<PortfolioDetails></PortfolioDetails>}> </Route>
+      <Route path='/blog' element={<Blogs></Blogs>}> </Route>
+      <Route path='/contact' element={<Contact></Contact>}> </Route>
      </Routes>
      
      <Footer></Footer>
-     </portfolioContext.Provider>
+     
     </>
    
   );
