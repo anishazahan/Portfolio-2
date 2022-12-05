@@ -9,7 +9,7 @@ const Portfolio = () => {
 
    
     useEffect( ()=>{
-        fetch('https://raw.githubusercontent.com/anishazahan/Portfolio-2/main/public/portfolio.json')
+        fetch('http://localhost:5000/api/project')
         .then(res => res.json())
         .then(data =>setPortfolios(data));
     }, [])
@@ -26,7 +26,7 @@ const Portfolio = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-6">
                 {
                     
-                    portfolios?.map(portfolio=> <SinglePortfolio key={portfolio.id} portfolio={portfolio}></SinglePortfolio>) 
+                    portfolios?.map(portfolio=> <SinglePortfolio key={portfolio._id} portfolio={portfolio}></SinglePortfolio>) 
                 }
 
     
