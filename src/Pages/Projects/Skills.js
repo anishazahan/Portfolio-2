@@ -25,7 +25,7 @@ const Skills = () => {
     <div className="mx-auto text-center">
     <h2 className='text-2xl px-5 mx-auto font-semibold text-gray-200 inline-block border-b-2 border-emerald-500 '>Expertice</h2>
     </div>
-    <div className=" grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-y-6 my-16 space-x-6 mx-auto max-w-7xl px-10 lg:px-32">
+    <div className=" grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-y-6 my-16 space-x-6 mx-auto max-w-7xl px-5 lg:px-32">
 
        
         <div className="w-32 h-32 bg-black p-4 rounded-sm shadow-lg mx-auto ">

@@ -63,15 +63,15 @@ const Services = () => {
 
     {/* <!-- component --> */}
 <div class=" max-w-7xl px-10 lg:px-20 mt-20 bg-black mx-auto w-full h-full">
-  <div class="relative wrap overflow-hidden p-10 h-full">
+  <div class="relative wrap overflow-hidden p-5 md:p-10 h-full">
     
     {/* <!-- right timeline --> */}
     <div class="mb-8 flex justify-between items-center w-full right-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div class="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 class="mx-auto font-bold text-lg text-black">1</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 class="mb-3 font-bold text-gray-900 text-xl">Web Design and ,React .Js ,Fronted,Junior Mern Stack Developer.</h3>
         
       </div>
@@ -80,10 +80,10 @@ const Services = () => {
     {/* <!-- left timeline --> */}
     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div class="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 class="mx-auto text-black font-bold text-lg">2</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 class="mb-3 font-bold text-gray-900 text-xl">Cross browser operability,Responsive design for all devices.</h3>
        
       </div>
@@ -92,10 +92,10 @@ const Services = () => {
     {/* <!-- right timeline --> */}
     <div class="mb-8 flex justify-between items-center w-full right-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div class="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 class="mx-auto font-bold text-lg text-black">3</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 class="mb-3 font-bold text-gray-900 text-xl">Process improvement,workflow optimization.User Requirement Gathering.</h3>
         
       </div>
@@ -103,10 +103,10 @@ const Services = () => {
     {/* <!-- left timeline --> */}
     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div class="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 class="mx-auto text-black font-bold text-lg">4</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 class="mb-3 font-bold text-gray-900 text-xl">Fresh, Commentable, Clean Code, Error handling, Debugging, fixing problems.Client Interaction about the project. </h3>
       </div>
     </div>
