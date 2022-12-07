@@ -45,7 +45,7 @@ const Services = () => {
             </div>
             <div className="box border text-gray-600 border-gray-900 hover:bg-primary hover:text-black duration-500 px-4 pb-5 text-center">
                 <img className='img-design' src={userInterface} alt="" />
-                <h2 className='text-3xl mb-7 service-name'> SEO Friendly</h2>
+                <h2 className='text-3xl mb-7 service-name'> SEO Optimization</h2>
                 <p className='service-text font-medium'>I will create your application seo friendly that is faster load and productive using Next.Js react framework. </p>
             </div>
             <div className="box border text-gray-600 border-gray-900 hover:bg-primary hover:text-black duration-500 px-4 pb-5 text-center important-service">
@@ -62,52 +62,52 @@ const Services = () => {
         </div>
 
     {/* <!-- component --> */}
-<div class=" max-w-7xl px-10 lg:px-20 mt-20 bg-black mx-auto w-full h-full">
-  <div class="relative wrap overflow-hidden p-5 md:p-10 h-full">
+<div className=" max-w-7xl px-10 lg:px-20 mt-20 bg-black mx-auto w-full h-full">
+  <div className="relative wrap overflow-hidden p-5 md:p-10 h-full">
     
     {/* <!-- right timeline --> */}
-    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-bold text-lg text-black">1</h1>
+    <div className="mb-8 flex justify-between items-center w-full right-timeline">
+      <div className="order-1 w-5/12"></div>
+      <div className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto font-bold text-lg text-black">1</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-900 text-xl">Web Design and ,React .Js ,Fronted,Junior Mern Stack Developer.</h3>
+      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+        <h3 className="mb-3 font-bold text-gray-900 text-xl">Web Design and ,React .Js ,Fronted,Junior Mern Stack Developer.</h3>
         
       </div>
     </div>
 
     {/* <!-- left timeline --> */}
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-black font-bold text-lg">2</h1>
+    <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+      <div className="order-1 w-5/12"></div>
+      <div className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto text-black font-bold text-lg">2</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-900 text-xl">Cross browser operability,Responsive design for all devices.</h3>
+      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+        <h3 className="mb-3 font-bold text-gray-900 text-xl">Cross browser operability,Responsive design for all devices.</h3>
        
       </div>
     </div>
     
     {/* <!-- right timeline --> */}
-    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-bold text-lg text-black">3</h1>
+    <div className="mb-8 flex justify-between items-center w-full right-timeline">
+      <div className="order-1 w-5/12"></div>
+      <div className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto font-bold text-lg text-black">3</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-900 text-xl">Process improvement,workflow optimization.User Requirement Gathering.</h3>
+      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+        <h3 className="mb-3 font-bold text-gray-900 text-xl">Process improvement,workflow optimization.User Requirement Gathering.</h3>
         
       </div>
     </div>
     {/* <!-- left timeline --> */}
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-black font-bold text-lg">4</h1>
+    <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+      <div className="order-1 w-5/12"></div>
+      <div className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+        <h1 className="mx-auto text-black font-bold text-lg">4</h1>
       </div>
-      <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-900 text-xl">Fresh, Commentable, Clean Code, Error handling, Debugging, fixing problems.Client Interaction about the project. </h3>
+      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+        <h3 className="mb-3 font-bold text-gray-900 text-xl">Fresh, Commentable, Clean Code, Error handling, Debugging, fixing problems.Client Interaction about the project. </h3>
       </div>
     </div>
   </div>

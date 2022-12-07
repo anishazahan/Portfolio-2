@@ -19,11 +19,11 @@ const About = () => {
                 <p className='my-7'>I am fronted React Js Developer.I have 2 years work experience.I have fresh knowledge of html,css,bootstrap,tailwind,javascript ES6(comfortable),react.js and familier for express.Js,node Js,Mongodb and other technology.You will get 100% full support of work assured until you are fully satisfied.I have the ability to apply professional and technical knowledge in a challenging environment. Which helps me to improve my skills and experience, to develop efficiency and to constantly learn new things for myself.</p>
 
               <Link to='/'>
-            <button class="learn-more">
-                <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
+            <button className="learn-more">
+                <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
                 </span>
-                <Link to='about' class="button-text">About More</Link>
+                <Link to='/portfolio' className="button-text">SEE PROJECTS</Link>
                 </button></Link>
             </div>
 

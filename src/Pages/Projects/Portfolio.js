@@ -9,7 +9,7 @@ const Portfolio = () => {
 
    
     useEffect( ()=>{
-        fetch('http://localhost:5000/api/project')
+        fetch('https://portfolio-server-hs1y.onrender.com/api/project')
         .then(res => res.json())
         .then(data =>setPortfolios(data));
     }, [])

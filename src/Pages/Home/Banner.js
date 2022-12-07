@@ -3,6 +3,7 @@ import './Home.css'
 import banner from '../../img/1_YZ2fsT9k1CmlMil-Fda0Zg.png'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import resume2 from "./Resume.pdf"
 
 
 const Banner = () => {
@@ -19,20 +20,20 @@ const Banner = () => {
                as your creative choice!</p>
 
                <div className="flex mt-5 space-x-5">
-               <Link className='font-medium hire-btn text-primary tracking-wide'> Hire me
+               <Link to='/contact' className='font-medium hire-btn text-primary tracking-wide'> Hire me
                     </Link>
-                    <Link
-                        href=""
+                    <a
+                        href={resume2}  target='_blank' rel="noreferrer"
                         className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
                     >
                         See Resume
-                    </Link>
+                    </a>
                </div>
         </div>
         <div className="img-section w-[48%] hidden lg:block ">
             <div className="h-full flex justify-center items-center relative">
                 <img className='w-[70%] h-[60%] object-cover absolute' src={banner} alt="" />
-                <div class=" w-[70%] h-[60%] relative  before:absolute before:-bottom-4 before:-right-4 before:h-28 before:w-28 before:border-b-4 before:border-r-4 before:border-emerald-600 before:transition-all before:duration-500 before:ease-in-out after:absolute after:-top-4 after:-left-4 after:h-28 after:w-28 after:border-t-4 after:border-l-4 after:border-emerald-600 after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)]"></div>
+                <div className=" w-[70%] h-[60%] relative  before:absolute before:-bottom-4 before:-right-4 before:h-28 before:w-28 before:border-b-4 before:border-r-4 before:border-emerald-600 before:transition-all before:duration-500 before:ease-in-out after:absolute after:-top-4 after:-left-4 after:h-28 after:w-28 after:border-t-4 after:border-l-4 after:border-emerald-600 after:transition-all after:duration-300 after:ease-in-out hover:before:h-[calc(100%+16px)] hover:before:w-[calc(100%+16px)] hover:after:h-[calc(100%+16px)] hover:after:w-[calc(100%+16px)]"></div>
             </div>
         </div>
         <div className="flex flex-row lg:flex-col justify-center items-center  lg:mx-0 mt-[2rem] lg:mt-0 mb-16 lg:mb-0">

@@ -15,18 +15,19 @@ const Footer = () => {
     </div> 
     <div>
       <span className="footer-title">Portfolio</span> 
-      <Link to='about' className="link link-hover">About us</Link> 
-      <Link to='contact' className="link link-hover">Contact</Link> 
-      <Link to='services' className="link link-hover">Services</Link> 
-      <Link to='/' className="link link-hover">Blog</Link>
+      <Link to='/about' className="link link-hover">About us</Link> 
+      <Link to='/contact' className="link link-hover">Contact</Link> 
+      <Link to='/service' className="link link-hover">Services</Link> 
+      <Link to='/portfolio' className="link link-hover">Projects</Link> 
+      <Link to='/blog' className="link link-hover">Blog</Link>
     </div> 
     <div>
       <span className="footer-title">Social</span> 
       <div className="grid grid-flow-col">
-      <Link to ="/" className='icon shadow-lg'><FaFacebookSquare></FaFacebookSquare> </Link>
-                <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
-                <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
-                <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
+      <a href='https://github.com/anishazahan' target="_blank" className='icon shadow-lg'><FaFacebookSquare></FaFacebookSquare> </a>
+                <a href='https://www.linkedin.com/in/anisha-zahan/' target="_blank" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </a>
+                <a href='' className='icon shadow-lg'><FaSkype></FaSkype> </a>
+                <a href='anishazahan13@gmail.com' className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </a>
                 
       </div>
       <h2 className='text-center'>Copyright By Anisha Zahan  {(new Date().getFullYear())}</h2>
