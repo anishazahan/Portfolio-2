@@ -20,6 +20,7 @@ const PortfolioDetails = () => {
                );
 
            },[id])
+           
 
       
   return (
